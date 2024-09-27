@@ -481,8 +481,8 @@ p#planF {
 @media (min-width: 1420px) and (max-width: 1920px)  {
     img#champions {
         position: relative;
-        top: -33%;
-        left: 35%;
+        top: -7%;
+    left: 3%;
         width: 500px;
         height: 450px;
     }
