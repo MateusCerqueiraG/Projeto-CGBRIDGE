@@ -481,23 +481,23 @@ p#planF {
 @media (min-width: 1420px) and (max-width: 1920px)  {
     img#champions {
         position: relative;
-        top: -7%;
-    left: 3%;
+        top: -9%;
+        left: 0%;
         width: 500px;
         height: 450px;
     }
     
     p#txtCAMPUM {
         position: relative;
-        top: 5%;
-        left: 0%;
+        top: -20%;
+        left: 10%;
     }
     
     p#CAMPcor {
         color: #552CFF;
         position: relative;
-        top: 5%;
-        left: 0%;
+        top: -20%;
+        left: 12%;
     }
     
     h1#txtCAMPcomplete{
@@ -505,8 +505,8 @@ p#planF {
         font-size: 25px;
         flex-flow: column;
         position: relative;
-        top: 35%;
-        left: -37%;
+        top: 5%;
+        left: -20%;
         color: white;
         max-width: 45.75rem;
         margin: var(--wasd-spacing-md) 0 var(--wasd-spacing-sm);
