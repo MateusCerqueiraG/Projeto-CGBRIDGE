@@ -215,14 +215,14 @@ img#octane {
 p#txtBGum {
     position: relative;
     top: -30%;
-    left: 0%;
+    left: 11%;
 }
 
 p#LADOcor {
     color: #552CFF;
     position: relative;
     top: -30%;
-    left: 0%;
+    left: 11%;
 }
 
 h1#txtBGcomplete{
@@ -253,7 +253,7 @@ h1#txtBGcomplete{
     img#octane {
         position: relative;
         top: 2%;
-        right: -34%;
+        right: -36%;
         width: 550px;
         height: 450px;
     }
@@ -478,26 +478,26 @@ p#planF {
     background-image: url(img/rodape.png);
 }
 
-@media (min-width: 1420px) {
+@media (min-width: 1420px) and (max-width: 1920px)  {
     img#champions {
         position: relative;
-        top: -1%;
-        left: -1%;
+        top: -33%;
+        left: 35%;
         width: 500px;
         height: 450px;
     }
     
     p#txtCAMPUM {
         position: relative;
-        top: -30%;
-        left: 10%;
+        top: 5%;
+        left: 0%;
     }
     
     p#CAMPcor {
         color: #552CFF;
         position: relative;
-        top: -30%;
-        left: 10.5%;
+        top: 5%;
+        left: 0%;
     }
     
     h1#txtCAMPcomplete{
@@ -505,8 +505,8 @@ p#planF {
         font-size: 25px;
         flex-flow: column;
         position: relative;
-        top: 3%;
-        left: -25%;
+        top: 35%;
+        left: -37%;
         color: white;
         max-width: 45.75rem;
         margin: var(--wasd-spacing-md) 0 var(--wasd-spacing-sm);
@@ -516,7 +516,7 @@ p#planF {
         width: 100%;
         height: 500px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly ;
         font-family: fonteDOIS;
         color: white;
         font-size: 30px;
@@ -528,25 +528,27 @@ p#planF {
     
     img#premium1 {
         position: relative;
-        width: 630px;
+        width: 615px;
         height: 450px;
     }
     
     img#premium2 {
         position: relative;
-        width: 630px;
+        width: 615px;
         height: 450px;
     }
     
     img#premium3 {
         position: relative;
-        width: 630px;
+        width: 615px;
         height: 450px;
     }
 
     .rodape {
-        width: 100%;
+        position: relative;
+        width: 1920px;
         height: 500px;
+        left: -3%;
         background-image: url(img/rodape2.png);
     }
 }
