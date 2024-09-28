@@ -131,7 +131,8 @@ img#logoIN {
 
 .wall5,
 .wall52,
-.wall53 {
+.wall53,
+.wall54 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -157,14 +158,46 @@ img#logoIN {
     background-image: url(img/apex3.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.hrResponsiva {
+    border: none;
+    height: 2px;
+    background-color: #ccc;
+    width: 100%;
+}
+
+.wall54{
+    background-image: url(img/pubg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-bottom: 100px;
 }
 
-.titulo {
+.BOTAO {
+    background-color: #552CFF;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 72px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.6s ease;
+    font-family: "Chakra Petch", sans-serif;
+    margin-top: 10px;
+}
+
+.BOTAO:hover {
+    background-color: #2E1B5B ;
+}
+
+.titulo2 {
     font-family: fonteDOIS;
     color: #552CFF;
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 2.8rem;
 }
 
 p#planF1 {
@@ -220,7 +253,7 @@ footer img {
         width: 70%;
     }
 
-    .wall, .wall2, .wall3, .wall4, .wall5, .wall52, .wall53 {
+    .wall, .wall2, .wall3, .wall4, .wall5, .wall52, .wall53, .wall54 {
         padding: 10px;
         background: fixed;
     }
@@ -242,9 +275,31 @@ footer img {
         font-size: 0.9rem;
     }
 
+    .hrResponsiva {
+        width: 100%;
+        height: 1.5px;
+    }
+
+    .BOTAO {
+        padding: 12px 34px;
+        font-size: 14px;
+    }
+
     footer {
         text-align: center;
         padding: 15px;
         background: fixed;
     }
 }
+
+@media (max-width: 480px) {
+    .hrResponsiva {
+        width: 100%;
+        height: 1px;
+    }
+
+    .BOTAO {
+      padding: 10px 20px;
+      font-size: 12px;
+    }
+  }
