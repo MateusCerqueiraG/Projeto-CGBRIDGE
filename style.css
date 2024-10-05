@@ -30,9 +30,9 @@ body {
     position: relative;
     display: flex;
     align-items: center;
-    background-color: #1d1335;
+    background-color: #3314ad;
     padding: 10px 20px;
-    box-shadow: 0px 10px 27px #2E1B5B, -13px -13px 27px #32215a;
+    box-shadow: 0px 10px 27px #4326b9, -13px -13px 27px #4326b9;
     z-index: 2;
     margin-bottom: -50px;
     justify-content: center;
@@ -129,6 +129,21 @@ img#logoIN {
     height: auto;
 }
 
+p#PLANOS {
+    font-family: fonteDOIS;
+    font-size: 6vw;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 
+      0 0 5px #552CFF,  
+      0 0 10px #552CFF, 
+      0 0 20px #552CFF, 
+      0 0 40px #552CFF, 
+      0 0 80px #552CFF;
+    transition: font-size 0.3s ease;
+    margin-bottom: 30px;
+  }
+
 .wall5,
 .wall52,
 .wall53,
@@ -146,6 +161,7 @@ img#logoIN {
     background-image: url(img/apex.png);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 80px;
 }
 
 .wall52{
@@ -267,6 +283,16 @@ footer img {
         height: auto;
     }
 
+    p#PLANOS {
+        font-size: 8vw;
+        text-shadow: 
+          0 0 3px #552CFF,  
+          0 0 6px #552CFF, 
+          0 0 12px #552CFF, 
+          0 0 24px #552CFF, 
+          0 0 48px #552CFF;
+      }
+
     .wall5 {
         flex-direction: column;
     }
@@ -297,6 +323,16 @@ footer img {
         width: 100%;
         height: 1px;
     }
+
+    p#PLANOS {
+        font-size: 12vw;
+        text-shadow: 
+          0 0 3px #552CFF,  
+          0 0 6px #552CFF, 
+          0 0 12px #552CFF, 
+          0 0 24px #552CFF, 
+          0 0 48px #552CFF;
+      }
 
     .BOTAO {
       padding: 10px 20px;
